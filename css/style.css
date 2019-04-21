@@ -1,0 +1,100 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('../bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+
+  .header,.marketing {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+
+  .header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f91100;
+  }
+
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    color: #ff1d0c;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 730px;
+    }
+  }
+  
+  .jumbotron {
+    text-align: center;
+    color: #fff;
+    background-color: #f91100;
+    box-shadow: 4px 5px 18px #f91100;
+  }
+  .jumbotron .btn {    
+    padding: 7px;
+    font-size: 23px;
+    width: 20%;
+    background-color: #000000;
+    color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 200px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .jumbotron .btn:hover {
+    background-color: #fff;
+    color: #f91100;
+  }
+
+  .jumbotron .site{
+    border: 0;
+    outline: none;
+    font-size: 17px;
+    box-shadow: 1px 1px 20px #ddd;
+  } 
+
+  .jumbotron .site:focus{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 1px 1px 20px #f91100;
+  }
+  
+  .marketing {
+    margin: 40px 0;
+  }
+  .marketing p + h4 {
+    margin-top: 28px;
+  }
+
+  .marketing .well {
+    border: 0;
+    background-color: white;
+    box-shadow: 3px 2px 10px #b1b1b1;
+    color: #f91100;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .marketing .well:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header,.marketing {
+      padding-right: 0;
+      padding-left: 0;
+    }
+    .header {
+      margin-bottom: 30px;
+    }
+  }
